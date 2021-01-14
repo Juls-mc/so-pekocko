@@ -10,7 +10,7 @@ const userRoutes = require('./routes/user');
 mongoose.connect('mongodb+srv://Juliette:Hotell00@cluster0.5qt0s.mongodb.net/Juliette?retryWrites=true&w=majority',
     { useNewUrlParser: true,
         useUnifiedTopology: true })
-    .then(() => console.log('Connexion à MongoDB reussie !'))
+    .then(() => console.log('Connexion à MongoDB réussie !'))
     .catch(() => console.log('Connexion à MongoDB échouée !'));
 
 const app = express();
